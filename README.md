@@ -1,95 +1,25 @@
-# 🏗️ Learn System Design
+# Learn System Design (roadmap-aligned)
 
-A structured, self-paced learning path to master system design — from core fundamentals to real-world architectures.
+This repo is a **hands-on** system design learning path organized to follow the major topic groups in the roadmap.sh System Design roadmap (in your own words, not copied).
 
-## 📚 Learning Path
+## How to use
 
-### Phase 1 — Foundations
-- [ ] How the Internet works (DNS, HTTP/HTTPS, TCP/IP)
-- [ ] Client-Server model
-- [ ] APIs: REST, GraphQL, gRPC
-- [ ] Latency, throughput, and availability
+- Work folders in order (00 → 12).
+- For each topic file: read, answer the prompts, and add your own notes under **My notes**.
+- Do at least one design exercise per week (see `12-design-exercises/`).
 
-### Phase 2 — Core Components
-- [ ] Load Balancers
-- [ ] Caching (Redis, Memcached, CDN)
-- [ ] Databases: SQL vs NoSQL
-- [ ] Message Queues (Kafka, RabbitMQ)
-- [ ] Storage: Object, Block, File
+## Suggested cadence (8 weeks)
 
-### Phase 3 — Scalability Patterns
-- [ ] Horizontal vs Vertical Scaling
-- [ ] Database Sharding & Replication
-- [ ] CAP Theorem
-- [ ] Consistent Hashing
-- [ ] Rate Limiting
+- Weeks 1–2: Fundamentals + networking + communication (`00`–`03`)
+- Weeks 3–4: Consistency/availability + scaling + data (`04`–`06`)
+- Weeks 5–6: Caching/CDN + async + queues (`07`–`08`)
+- Week 7: Observability + performance pitfalls (`09`)
+- Week 8: Patterns + 3 full design exercises (`10`–`12`)
 
-### Phase 4 — Real-World System Design
-- [ ] Design a URL Shortener (e.g., bit.ly)
-- [ ] Design a Key-Value Store
-- [ ] Design a Chat Application
-- [ ] Design a Notification System
-- [ ] Design a Video Streaming Platform
-- [ ] Design a Ride-Sharing Service
+## Templates
 
-### Phase 5 — Advanced Topics
-- [ ] Microservices vs Monolith
-- [ ] Service Mesh (Istio)
-- [ ] Event-Driven Architecture
-- [ ] CQRS & Event Sourcing
-- [ ] Distributed Transactions (2PC, Saga Pattern)
+Use `11-templates/system-design-template.md` for every case study.
 
----
+## Progress
 
-## 📁 Repository Structure
-
-```
-learn-system-design/
-├── 01-foundations/
-│   ├── networking.md
-│   ├── apis.md
-│   └── metrics.md
-├── 02-core-components/
-│   ├── load-balancers.md
-│   ├── caching.md
-│   ├── databases.md
-│   └── message-queues.md
-├── 03-scalability/
-│   ├── scaling-strategies.md
-│   ├── cap-theorem.md
-│   └── consistent-hashing.md
-├── 04-case-studies/
-│   ├── url-shortener.md
-│   ├── chat-app.md
-│   └── video-streaming.md
-├── 05-advanced/
-│   ├── microservices.md
-│   └── event-driven.md
-└── resources.md
-```
-
----
-
-## 🔗 Recommended Resources
-
-| Resource | Type | Link |
-|---|---|---|
-| System Design Primer | GitHub Repo | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) |
-| Designing Data-Intensive Applications | Book | Martin Kleppmann |
-| ByteByteGo | Newsletter/Videos | [bytebytego.com](https://bytebytego.com) |
-| High Scalability Blog | Blog | [highscalability.com](http://highscalability.com) |
-| Architecture Notes | Blog | [architecturenotes.co](https://architecturenotes.co) |
-
----
-
-## ✅ How to Use This Repo
-
-1. Follow the phases in order
-2. Take notes in each topic's `.md` file
-3. Check off topics as you complete them
-4. Build mini case studies in `04-case-studies/`
-5. Review and iterate
-
----
-
-> 💡 *"Good system design is not about finding the perfect solution — it's about making the right trade-offs."*
+Tick items in `progress.md` as you go.
